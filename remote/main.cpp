@@ -1,13 +1,7 @@
 #include <iostream>
-#include <string>
-
-using namespace std;
 
 int main() {
-    cout << "Hello World\n";
-    cout << "Input: ";
-    string data;
-    getline(cin, data);
-    cout << "Output: " << data << "\n\n";
+    const double pi = 3.14;
+    pi = 0;
     return 0;
 }
